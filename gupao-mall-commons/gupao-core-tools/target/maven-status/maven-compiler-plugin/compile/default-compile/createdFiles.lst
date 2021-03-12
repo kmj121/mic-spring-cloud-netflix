@@ -1,0 +1,6 @@
+com\gupaoedu\springcloud\api\R$Builder.class
+com\gupaoedu\springcloud\App.class
+com\gupaoedu\springcloud\api\R.class
+com\gupaoedu\springcloud\exception\BaseException.class
+com\gupaoedu\springcloud\exception\BizException.class
+com\gupaoedu\springcloud\exception\ValidException.class

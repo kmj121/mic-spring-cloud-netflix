@@ -1,0 +1,4 @@
+com\gupaoedu\springcloud\App.class
+com\gupaoedu\springcloud\clients\IGoodsFeignClient.class
+com\gupaoedu\springcloud\vo\ItemDetailVo.class
+com\gupaoedu\springcloud\dto\ItemStockDto.class

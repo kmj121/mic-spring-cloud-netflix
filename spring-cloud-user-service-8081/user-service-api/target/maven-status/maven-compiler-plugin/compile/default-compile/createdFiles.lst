@@ -1,0 +1,2 @@
+com\gupaoedu\springcloud\App.class
+com\gupaoedu\springcloud\clients\IUserAuthFeignClient.class

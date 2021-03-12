@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: spring-cloud-config-server-9091
+  datasource:
+    url: jdbc:mysql://101.133.165.3:3306/gper_mall?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka
+
+logging:
+  level:
+    org.springframework.cloud.sleuth: debug
