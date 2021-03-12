@@ -5,9 +5,12 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/gupao_mic/spring-cloud-config-server.git
-          username: 16607491862
-          password: "!q@w#e$r123"
+          uri: https://gitee.com/kmj123/spring-cloud-config-server.git
+          username: 921301172@qq.com
+          password: "kmj123"
+#          uri: https://gitee.com/gupao_mic/spring-cloud-config-server.git
+#            username: 16607491862
+#            password: "!q@w#e$r123"
     bus:
       enabled: true
       trace:

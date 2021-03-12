@@ -4,7 +4,7 @@
         "mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
     <!--数据库驱动-->
-    <classPathEntry    location="D:\repository\mysql\mysql-connector-java\5.1.44\mysql-connector-java-5.1.44.jar"/>
+    <classPathEntry    location="E:\mvn-repository\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar"/>
     <context id="Mysql"    targetRuntime="MyBatis3">
 
         <commentGenerator>
@@ -13,7 +13,7 @@
         </commentGenerator>
 
         <!--数据库链接地址账号密码-->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/gper_mall?useUnicode=true&amp;characterEncoding=utf8&amp;useOldAliasMetadataBehavior=true&amp;zeroDateTimeBehavior=convertToNull&amp;allowMultiQueries=true&amp;serverTimezone=UTC" userId="root" password="root">
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver" connectionURL="jdbc:mysql://101.133.165.3:3306/gper_mall?useUnicode=true&amp;characterEncoding=utf8&amp;useOldAliasMetadataBehavior=true&amp;zeroDateTimeBehavior=convertToNull&amp;allowMultiQueries=true&amp;serverTimezone=UTC" userId="root" password="123456">
         </jdbcConnection>
 
         <javaTypeResolver>
